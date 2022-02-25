@@ -32,7 +32,7 @@ Posteriormente, en el lado del receptor se da clic al botón Recibir, para poder
 
 ## 4: Transmitir
 A continuación, se envía el video al presionar el botón Transmitir y se reproduce automáticamente en el lado del
-receptor. 
+receptor. Además de realizar una captura de tráfico con tcpdump.
 
 ## 5: Stop
 Al terminar de transmitir y reproducir el video, en cada lado se da clic al botón Stop para finalizar la
