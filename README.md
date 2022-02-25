@@ -19,6 +19,7 @@ En las siguiente Figura se muestran la interfaz del transmisor.
 Primero se cargan los datos mediante el botón Cargar.
 Para el transmisor se selecciona el video deseado en formato YUV, las IPs de origen y destino, el códec, el puerto
 de destino, el framework multimedia, el piso del ordenador receptor y finalmente el número de transmisión. 
+Cabe recalcar que se puede seleccionar el tipo de herramienta tanto GStreamer como FFMPEG.
 
 ## 2: Sincronizar
 Seguidamente, por medio del botón Sincronizar, se sincroniza con el servidor NTP ubicado en uno de los ordenadores.
@@ -47,7 +48,7 @@ En cambio, el segundo botón abre otra interfaz que se observa
 en la siguiente Figura donde se realiza un promedio de las cinco diferentes transmisiones de cada métrica (delay,
 throughput, packet loss, PSNR, consumo de CPU y tiempo de codificación) y se determinan los intervalos de confianza del 95% de fiablidad. Al final de esta interfaz se encuentra el botón Grabar, el cual mueve todas las
 figuras generadas a una carpeta específica donde existe una mayor organización para documentar los resultados.
-Cabe recalcar que en las dos interfaces se puede seleccionar el tipo de herramienta y el video a ser analizado.
+
 
 ![gui_int_4](https://user-images.githubusercontent.com/68077496/155747776-84fdc4bc-f2b8-4c3c-bc8e-e7a73b8e49e4.png)
 
